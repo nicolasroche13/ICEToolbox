@@ -24,5 +24,14 @@ version = { file = "VERSION" }
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools.package-data]
+ice_toolbox = [
+    "resources/icons/*.svg",
+    "resources/fonts/Inter/*.ttf",
+    "resources/fonts/Inter/*.txt",
+    "resources/fonts/JetBrainsMono/*.ttf",
+    "resources/fonts/JetBrainsMono/*.txt",
+]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]

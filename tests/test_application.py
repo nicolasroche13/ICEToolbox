@@ -9,5 +9,5 @@ def test_application_can_be_initialized() -> None:
     assert app is not None
 
 
-def test_version_is_0_1_0() -> None:
-    assert get_version() == "0.1.0"
+def test_version_is_0_1_1() -> None:
+    assert get_version() == "0.1.1"
