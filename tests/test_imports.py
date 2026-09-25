@@ -8,4 +8,4 @@ def test_package_is_importable() -> None:
 
 
 def test_package_has_version() -> None:
-    assert ice_toolbox.__version__ == "0.1.0"
+    assert ice_toolbox.__version__ == "0.1.1"
